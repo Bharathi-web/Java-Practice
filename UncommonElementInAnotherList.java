@@ -13,11 +13,15 @@ public class UncommonElementInAnotherList {
 		for(String s:arr) {
 			if(!al.contains(s)) {
 				al2.add(s);
+				//System.out.println(s);
 			}
+
 		}
 		for(String s:al) {
 			if(!Arrays.asList(arr).contains(s)) {
 				al2.add(s);
+				//System.out.println(s);
+
 			}
 		}
 		System.out.println(al2);
